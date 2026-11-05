@@ -1,0 +1,12 @@
+{
+  "id": "pcl.ui.controls",
+  "name": "PCL 基础控件库",
+  "version": "0.1.0",
+  "assembly": "PCL.UI.Controls.dll",
+  "entry": "PCL.UI.Controls.Module",
+  "dependencies": [ "pcl.core", "pcl.theme" ],
+  "loadPriority": 100,
+  "author": "150311-ma",
+  "description": "PCL 的自绘控件集（按钮、卡片、滚动条、提示框等）。所有页面模块都依赖它，因此它是 UI 层最底的一层。",
+  "tags": [ "ui" ]
+}
